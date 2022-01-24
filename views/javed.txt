@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="wrapper">
+    <!-------------------------------------------- navbar   ------------------------------------------------------------------------------->
+    <navbar>
+        <div class="container">
+            <img src="/static/img/logo.svg" alt="">
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Carrier">Services</a></li>
+                <li><a href="#works">Works</a></li>
+
+                <button class="btn"><p>Download CV</p></button>
+            </ul>
+        </div>
+    </navbar>
+    <!------------------------------------------ Header started from here --------------------------------------------------------------->
+    <header>
+        <div class="head1">
+            <h1>Hello, I'm John Doe,<br>a frontend developer<br>
+                <span>&</span> designer currently<br>
+                based somewhere.
+            </h1>
+            <div class="headImage"></div>
+        </div>
+    </header>
+    <!------------------------------------------ section 1 started from here ---------------------------------------------------------------------------------------------->
+    <section>
+        <div id="about">
+        <div class="contentContainer">
+            <div class="h1about">
+                <h2>About me</h2>
+                <p class="aboutp ">I'm the kind of person<br> who isn't afraid of<br> challenges.</p>
+
+                <div class="profilepic"></div>
+            </div>
+
+            <h2 class="headingprofile">Profile</h2>
+            <p class="profilep "> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Neque quod fuga ipsum!
+                Animi commodi, accusamus
+                dignissimos sint delectus doloremque unde architecto ex<br> minus mollitia. Neque quod fuga ipsum! Animi
+                <br />dignissimos sint delectus doloremque unde architecto ex minus mollitia
+                Animi commodi, accusamus<br>
+                dignissimos sint delectus doloremque unde architecto ex<br> minus mollitia. Neque quod fuga ipsum! Animi
+                <br />dignissimos sint delectus doloremque unde architecto ex minus mollitia
+            </p>
+
+        </div>
+    </div>
+        <hr>
+    </section>
+    <!-------------------------------------------- section 2 started from here ------------------------------------------------------------------>
+    <section>
+        <div id="Carrier">
+        <div class="carrier">Carrier</div>
+        <div class="splitMain">
+            <div class="istSplit">
+                <hr>
+                <div class="googleproductdesigner">
+                    <p>Google Product Designer</p>
+                </div>
+
+                <p class="googlepara">Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean
+                    |posuere, tortor
+                    sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolorcursus feugiat, nunc augue
+                    blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+            </div>
+
+
+
+            <div class="secSplit">
+                <hr>
+                <div class="Microproductdesigner">
+                    <p class="microparap">Micro Product Designer</p>
+                </div>
+                <p class="micropara">Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean
+                    |posuere, tortor
+                    sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolorcursus feugiat, nunc augue
+                    blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+            </div>
+
+        </div>
+
+
+        <div class="splitMain2">
+            <div class="thirdSplit">
+                <hr>
+                <div class="facebookproductdesigner">
+                    <p>Facebook Product Designer</p>
+                </div>
+
+                <p class="facebookpara">Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean
+                    |posuere, tortor
+                    sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolorcursus feugiat, nunc augue
+                    blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+            </div>
+
+
+
+            <div class="fourthSplit">
+                <hr>
+                <div class="instagramproductdesigner">
+                    <p class="instagramparap">Instagram Product Designer</p>
+                </div>
+                <p class="instagrampara">Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean
+                    |posuere, tortor
+                    sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolorcursus feugiat, nunc augue
+                    blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-------------------------------------------- section 3 started from here ------------------------------------------------------------------>
+
+    <section>
+        <div class="expertise">
+            <p>Expertise</p>
+            <h1>I focus on crafting web experiences and designs that works.</h1>
+            <div class="expertisePara">Suspendisse eu ligula. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Nulla
+            |facilisi. Etiam rhoncus. Praesent blandit laoreet nibh. Donec quam felis, ultricies nec, pellentesque eu,
+            |pretium quis, sem. Cras sagittis. Praesent egestas tristique nibh.
+            </div>
+        </div>
+    </section>
+
+    <!-- footer started from here -->
+
+    <footer>
+    <div id="works">
+        <div class="mainfoot">
+            <div class="item1"><p>GET IN TOUCH</p></div>
+            <div class="item2"><p>Email<br> sayhello@ethos.com</p></div>
+            <div class="item3"><p>Have an idea or a concept that really excite you? Let's turn that idea into reality. Shoot me a message.</p></div>
+            <div class="item4"><p>Phone</p> <p>+197 543 2345</p></div>
+            <div class="item5"><p>© Copyright Ethos 2019 | Design by StyleShout</p></div>
+            <div class="item6"><p>Social <br>Twitter<br> Instagram</p></div>
+        </div>
+    </div>
+    </footer>
+</div>
+</body>
+
+</html>            
